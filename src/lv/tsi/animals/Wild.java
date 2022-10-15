@@ -1,5 +1,5 @@
 package lv.tsi.animals;
 
-public interface Animal {
-     public void animalSound();
+public interface Wild {
+     void printName();
 }

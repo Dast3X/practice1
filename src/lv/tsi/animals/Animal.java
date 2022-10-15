@@ -1,2 +1,5 @@
-package lv.tsi.animals;public interface Animal {
+package lv.tsi.animals;
+
+public interface Animal {
+      void animalSound();
 }

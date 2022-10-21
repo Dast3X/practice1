@@ -1,4 +1,5 @@
-import lv.tsi.*;
+package lv.tsi;
+
 import lv.tsi.animals.Animals;
 
 public class Main {
@@ -45,6 +46,7 @@ public class Main {
             animals.cat.animalSound();
             animals.dog.animalSound();
             animals.fox.animalSound();
+            animals.fox.eat();
             System.out.println("\n#############################################\n7 exercise\n");
             animals.fox.printName();
             animals.dog.printName();

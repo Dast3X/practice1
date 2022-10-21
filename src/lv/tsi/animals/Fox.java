@@ -18,4 +18,9 @@ public class Fox implements Animal, Wild {
     {
         System.out.println("Fox's name is " + name);
     }
+
+    @Override
+    public void eat() {
+        System.out.println("*Eating*");
+    }
 }
